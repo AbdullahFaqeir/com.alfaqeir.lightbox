@@ -1,0 +1,73 @@
+"#OverLayWindow[platform=ios]":{
+	width:Titanium.UI.FILL,
+	height:Titanium.UI.FILL,
+	layout: "vertical",
+	statusBarStyle:Titanium.UI.iPhone.StatusBar.GRAY,
+	orientationModes: [],
+	navBarHidden: true,
+	backgroundImage: WPATH( 'OverLayBG.png'),
+	backgroundRepeat: true
+}
+
+"#OverLayWindow[platform=android]":{
+	width:Titanium.UI.FILL,
+	height:Titanium.UI.FILL,
+	layout: "vertical",
+	orientationModes: [],
+	navBarHidden: true,
+	theme: "Theme.NoActionBar",
+	exitOnClose: false,
+	backgroundImage: WPATH( 'OverLayBG.png'),
+	backgroundRepeat: true
+}
+
+"#OverLayWindowView":{
+	left: 20,
+	right: 20
+}
+
+"#OverLayContainer":{
+	width:Alloy.Globals.OverLayContainerWidth,
+	height:Titanium.UI.SIZE,
+	backgroundColor: "white",
+	layout: "vertical",
+	borderRadius: 5
+}
+
+"#OverLayContainerHeader":{
+	//layout: "horizontal",
+	width:Titanium.UI.FILL,
+	height: 30,
+	left: 5,
+	right: 5,
+	top: 5,
+	backgroundColor: "#a060a2"
+}
+
+"#OverLayContainerHeaderTitle":{
+	left: 10,
+	width:Titanium.UI.SIZE,
+	color: "white"
+}
+
+"#OverLayContainerHeaderCloseBtn":{
+	right: 10,
+	width:Titanium.UI.SIZE,
+	color: "white"
+}
+
+"#OverLayContainerContent":{
+	width:Titanium.UI.FILL,
+	height:Titanium.UI.SIZE,
+	backgroundColor: "white"
+}
+
+"#OverLayContainerContentHolder":{
+	width:Titanium.UI.FILL,
+	height:Titanium.UI.SIZE,
+	backgroundColor: "white",
+	top: 5,
+	bottom: 5,
+	left: 5,
+	right: 5
+}

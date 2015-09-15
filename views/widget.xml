@@ -1,0 +1,15 @@
+<Alloy>
+	<Window id="OverLayWindow">
+		<View id="OverLayWindowView">
+			<View id="OverLayContainer">
+				<View id="OverLayContainerHeader">
+					<Label id="OverLayContainerHeaderTitle">Header Title</Label>
+					<Label id="OverLayContainerHeaderCloseBtn">⊗</Label>
+				</View>
+				<View id="OverLayContainerContent">
+					<View id="OverLayContainerContentHolder"></View>
+				</View>
+			</View>
+		</View>
+	</Window>
+</Alloy>
