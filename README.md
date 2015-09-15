@@ -4,8 +4,6 @@ Lightbox alike widget for Titanium, Alloy
 
 # How To Use
 
-[examples]
-
     //---Calls the overlay popup
     var View = Ti.UI.createView();
 
@@ -17,5 +15,3 @@ Lightbox alike widget for Titanium, Alloy
     }).getView();
     AlFaqeirWidget();
     //---Calls the overlay popup
-
-[examples]
