@@ -31,7 +31,7 @@
 	height:Titanium.UI.SIZE,
 	backgroundColor: "white",
 	layout: "vertical",
-	borderRadius: 5
+	//borderRadius: 5
 }
 
 "#OverLayContainerHeader":{

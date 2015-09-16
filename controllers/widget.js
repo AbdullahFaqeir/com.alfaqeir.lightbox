@@ -1,6 +1,6 @@
 var args = arguments[0] || {};
 
-Alloy.Globals.OverLayContainerWidth = Titanium.Platform.displayCaps.platformWidth - 80;
+Alloy.Globals.OverLayContainerWidth = Ti.UI.FILL;
 Alloy.Globals.OverLayContainerHeight = Titanium.Platform.displayCaps.platformHeight - 160;
 
 $.OverLayContainerContentHolder.add(args.View);
